@@ -9,7 +9,7 @@ export default function Header() {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-                  <h1>Chuck Norris Jokes!</h1>
+          <h1>Chuck Norris Jokes!</h1>
     </header>
     )
 }
