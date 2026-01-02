@@ -4,7 +4,7 @@ export default function Header() {
            <header>
       <nav>
         <ul id="nav-links">
-          <li><Link to="/jokes">Jokes</Link></li>
+          <li><Link to="/home">Jokes</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>

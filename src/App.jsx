@@ -15,7 +15,7 @@ function App() {
       <Header />
       <SearchBar category={category} setCategory={setCategory} />
       <Routes>
-        <Route path="/" element={<Main category={category} />} />
+        <Route path="/home" element={<Main category={category} />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/success" element={<Success />} />
       </Routes>
