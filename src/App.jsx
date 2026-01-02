@@ -13,7 +13,7 @@ function App() {
       <Header />
       <SearchBar category={category} setCategory={setCategory} />
       <Routes>
-        <Route path="/jokes" element={<Main category={category} />} />
+        <Route path="/" element={<Main category={category} />} />
       </Routes>
     </Router>
   );
